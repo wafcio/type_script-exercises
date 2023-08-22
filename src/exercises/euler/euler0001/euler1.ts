@@ -1,4 +1,4 @@
-export function Euler1 (num: number): number {
+export function Euler1(num: number): number {
   let sum = 0
 
   for (let i = 3; i < num; i++) {
