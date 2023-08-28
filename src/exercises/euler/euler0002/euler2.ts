@@ -1,8 +1,8 @@
 export function Euler2(n: number): number {
-  let num1 = 1
-  let num2 = 2
-  let sum = num2
-  let value = -1
+  let num1: number = 1
+  let num2: number = 2
+  let sum: number = num2
+  let value: number = -1
 
   while (value < n) {
     value = num1 + num2
